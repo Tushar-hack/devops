@@ -1,0 +1,34 @@
+#To install git in linux
+sudo apt install git -y
+
+#To initialize a .git empty repo
+git init
+
+#To set remote origin
+# url ==a git url where you need to push the code 
+git remote add origin url 
+
+#To check what are the remote hosts
+git remote -v
+
+#To add the code
+# file == can be a single file name or a dot which specify the changes made in the curret directory 
+git add file 
+
+#To check what are the untracked files 
+git status
+
+#To Check the logs which person commited which change 
+git log
+
+#To commit the added file/s to our local repository
+# text == additional description
+git commit -m "text"
+
+#To remove the commit 
+# hash == copy the hash from where you want to remove commit (deleted in upward direction)
+git reset hash
+
+#To restore data that has been deleted
+git stash
+ 
