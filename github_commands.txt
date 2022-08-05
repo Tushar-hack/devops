@@ -32,4 +32,4 @@ git reset hash
 #To restore data that has been deleted
 git stash
 
-#To 
+#To the 
