@@ -29,7 +29,13 @@ git commit -m "text"
 # hash == copy the hash from where you want to remove commit (deleted in upward direction)
 git reset hash
 
-#To restore data that has been deleted
+#To save those chnages whom you not want to commit or dont want to loose those changes
 git stash
 
-#To the 
+#To the bring back those chnages from stash
+git stash pop
+
+#To clear the stash 
+git stash clear
+
+#
